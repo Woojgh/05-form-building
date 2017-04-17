@@ -81,12 +81,16 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-    <script src="/scripts/blogArticles.js"></script>
-    <script src="/scripts/article.js"></script>
-    <script src="/scripts/articleView.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shAutoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js"></script>
+    <script src="scripts/blogArticles.js"></script>
+    <script src="scripts/article.js"></script>
+    <script type="text/javascript" src="scripts/articleView.js"></script>
+    <!--   // REVIEW: What is this function doing? Why do we need it? Will we need one like it on the new article page that we are creating? -->
     <script>
-      // REVIEW: What is this function doing? Why do we need it? Will we need one like it on the new article page that we are creating?
-      articleView.initIndexPage()
+    console.log('more monkies');
+      articleView.initIndexPage();
+      console.log(articleView);
     </script>
   </body>
 </html>
